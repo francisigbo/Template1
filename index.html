@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="button">
+        <a href="#"
+          ><img src="img/logo-removebg-preview.png" height="100%" alt=""
+        /></a>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="" class="active"><span class="fa fa-home"> Home</span></a>
+        </li>
+        <li>
+          <a href="" class="active"><span class="fa fa-info"> Info</span></a>
+        </li>
+        <li>
+          <a href="" class="active"><span class="fa fa-coffee"> About</span></a>
+        </li>
+        <li>
+          <a href="" class="active"><span class="fa fa-bomb"> Survey</span></a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <section>
+        <h1>Coffee</h1>
+        <p>Coffee is the best best thing ever</p>
+        <a href="btn" class="btn">Click if you agree</a>
+      </section>
+    </header>
+    <blockquote>
+      <p>
+        "If this is coffee, please bring me some tea; but if this is tea, please
+        bring me some coffee."
+      </p>
+      <footer>=Abraham Lincoln</footer>
+    </blockquote>
+    <section class="titles">
+      <h1>Three interesting thing about coffee</h1>
+    </section>
+    <div class="articles clearfix">
+      <section>
+        <img
+          src="img/pexels-photo-5792099.jpeg"
+          width="300vh"
+          height="150%"
+          alt="Coffee beans"
+        />
+        <h2>Etymology</h2>
+        <p>
+          The word coffee entered the English language in 1582 via the Dutch
+          koffie, borrowed from the Ottoman Turkish kahve (قهوه), borrowed in
+          turn from the Arabic qahwah (قَهْوَة).[12] The Arabic word qahwah was
+          traditionally held to refer to a type of wine whose etymology is given
+          by Arab lexicographers as deriving from the verb قَهِيَ qahiya, 'to
+          lack hunger', in reference to the drink's reputation as an appetite
+          suppressant. The term coffee pot dates from 1705.[13] The expression
+          coffee break was first attested in 1952.[13]
+        </p>
+        <a href="#" class="btn">Click Here</a>
+      </section>
+      <section>
+        <img
+          src="img/pexels-photo-5472411.jpeg"
+          width="300vh"
+          height="150%"
+          alt="Coffee beans"
+        />
+        <h2>Biology</h2>
+        <p>
+          Several species of shrub of the genus Coffea produce the berries from
+          which coffee is extracted. The two main species commercially
+          cultivated are Coffea canephora (predominantly a form known as
+          'robusta') and C. arabica.[43] C. arabica, the most highly regarded
+          species, is native to the southwestern highlands of Ethiopia and the
+          Boma Plateau in southeastern Sudan and Mount Marsabit in northern
+          Kenya.[44] C. canephora is native to western and central Subsaharan
+          Africa, from Guinea to Uganda and southern Sudan.[45] Less popular
+          species are C. liberica, C. stenophylla, C. mauritiana, and C.
+          racemosa
+        </p>
+        <a href="#" class="btn">Click Here</a>
+      </section>
+      <section>
+        <img
+          src="img/pexels-chevanon-photography-312418.jpg"
+          width="300vh"
+          height="150%"
+          alt="Coffee beans"
+        />
+        <h2>History</h2>
+        <p>
+          The earliest credible evidence of coffee-drinking or knowledge of the
+          coffee tree appears in the middle of the 15th century in the accounts
+          of Ahmed al-Ghaffar in Yemen.[2] It was here in Arabia that coffee
+          seeds were first roasted and brewed in a similar way to how it is
+          prepared now. Coffee was used by Sufi circles to stay awake for their
+          religious rituals.[14] Accounts differ on the origin of the coffee
+          plant prior to its appearance in Yemen. From Ethiopia, coffee could
+          have been introduced to Yemen via trade across the Red Sea.[15] One
+          account credits Muhammad Ibn Sa'd for bringing the beverage to Aden
+          from the African coast.[16] Other early accounts say Ali ben Omar of
+          the Shadhili Sufi order was the first to introduce coffee to
+          Arabia.[17] According to al Shardi, Ali ben Omar may have encountered
+          coffee during his stay with the Adal king Sadadin's companions in
+          1401.
+        </p>
+        <a href="#" class="btn">Click Here</a>
+      </section>
+    </div>
+    <section class="titles">
+      <h1>Follow Coffee on these platforms</h1>
+    </section>
+    <div class="articles clearfix small">
+      <section>
+        <a href="#" class="black"><span class="fa fa-Facebook fa-5x"></span></a>
+        <h2 class="red">Facebook</h2>
+      </section>
+      <section>
+        <a href="#" class="black"
+          ><span class="fa fa-Instagram fa-5x"></span
+        ></a>
+        <h2 class="red">Instagram</h2>
+      </section>
+      <section>
+        <a href="#" class="black"><span class="fa fa-Twitter fa-5x"></span></a>
+        <h2 class="red">Twitter</h2>
+      </section>
+    </div>
+    <footer id="second">
+      <h1>&copy:Make America Drink Coffee Again!!!!</h1>   
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(documnent).ready(function () {
+        $(".button").click(function () {
+          $("ul li").slideToggle("slow", function () {
+
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
